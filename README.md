@@ -6,3 +6,11 @@
 Основной код находится в файле `lab_1_2/association rules/main.ipynb`<br>
 В `Части №1` поиск осуществляется на вручную сформированному датасету из 30 транзакциий на основе товаров из магазина бытовой техники с расчётами - `lab_1_2.xlsx`,
 в `Части №2` на основе датасета <a href="https://archive.ics.uci.edu/dataset/352/online+retail">Online Retail</a> 
+## 2. Снижение размерности пространства `lab_3_4`
+В лабораторных работах №3 и №4 рассмотрено применение алгоритмов снижения размерности: `t-sne`, `UMAP`, `TriMAP` и `PacMAP`.
+Используются различные параметры алгоритмов и методы масштабирования данных: `MaxAbsScaler`,`MinMaxScaler`,`Normalizer`,
+`PowerTransformer`,`QuantileTransformer`,`RobustScaler`,`StandardScaler`,`minmax_scale`.<br>
+В файле `lab_3_4/dimension_reduce/hepatitis.ipynb`<br> проводится снижение из 19-и мерного в 2-х мерное пространство на 
+примере датасета <a href="https://archive.ics.uci.edu/dataset/46/hepatitis">Hepatitis</a>.<br>
+Аналогично в файле`lab_3_4/dimension_reduce/mammonth.ipynb` используется датасет `mammonth` представляющий собой набор точек в 3-х мерном пространстве
+в совокупности составляющие изображение мамонта. 
