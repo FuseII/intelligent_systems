@@ -14,3 +14,13 @@
 примере датасета <a href="https://archive.ics.uci.edu/dataset/46/hepatitis">Hepatitis</a>.<br>
 Аналогично в файле`lab_3_4/dimension_reduce/mammonth.ipynb` используется датасет `mammonth` представляющий собой набор точек в 3-х мерном пространстве
 в совокупности составляющие изображение мамонта. 
+## 3. Алгоритмы классификации SVM, KNN, Random Forest `lab_5_6`
+В лабораторных работах №5 и №6 применены алгоритмы классифкации: Опорных векторов (SVM),
+Ближайших соседей (KNN), Случайного леса (RF). Для нахождение оптимальных параметров применён GreedSearch<br>
+<a href="https://scikit-learn.org/stable/modules/svm.html">SVM</a>.<br>
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">KNN</a><br>
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest</a><br>
+## 4. Алгоритмы балансировки классов SMOTE, BorderlineSmote `lab_7_8`
+В лабораторных работах №7 и №8 применены алгоритмы балансировки классов для дальнейшей классификации - увеличение экземпляров миноторитарного класса<br>
+<a href="https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html">SMOTE</a>.<br>
+
