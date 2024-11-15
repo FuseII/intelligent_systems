@@ -31,3 +31,11 @@
 глобального минимума 
 <a href="https://ru.wikipedia.org/wiki/Функция_Растригина">функции Растригина</a>  - `evolution.ipynb`, 
 а также для поиска оптимальных параметров в задаче классификации SVM, KNN и RF - `evolution_optim_params.ipynb` .<br>
+## 6. Алгоритмы кластеризации `lab_11_12`
+В работе применены алгоритмы кластеризации `KMeans`,`fuzzy-c-means`,
+`DBSCAN` для трёх наборов данных: `hepatitis` - `clustering_hepatitis.ipynb`,`FMA` - `clustering_FMA.ipynb`,`mammonth` - `clustering_mamonth.ipynb`. <br>.
+Построен график индекса кластерного силуэта, оценено оптимальное кол-во кластеров по методу локтя,
+расчитана мартица связей и отображена дендрограмма.
+Выведены значения показателей качества кластеризации: Homogeneity, Completness, V-measure,
+Adjusted Rand Index, Adjusted Mutual Information, Silhouette score.
+Выполнена визуализация со снижением размерности данных до и после кластеризации.
